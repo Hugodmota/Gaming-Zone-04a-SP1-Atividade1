@@ -1,0 +1,28 @@
+main{
+  background-image: url('/assets/img/bg4.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 850px;
+}
+
+#section-login{
+  background-color: white;
+  height: 100%;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 255, 0.600);
+  padding: 10px 20px;
+
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+img{
+  height: 150px;}

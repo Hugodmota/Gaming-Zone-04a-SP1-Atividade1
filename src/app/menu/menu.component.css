@@ -1,0 +1,23 @@
+mat-toolbar{
+  background-color: rgba(0, 0, 255, 0.8);
+  color: #fff;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+span{
+  padding: 10px;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}

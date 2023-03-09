@@ -1,5 +1,5 @@
 <main>
-     <section id="section-banner">
+  <section id="section-banner">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -25,75 +25,25 @@
     </div>
   </section>
 
-<h2>PROMOÇÃO</h2>
-  <mat-grid-list cols="4" >
-    <mat-grid-tile>
+  <h2>PROMOÇÃO</h2>
+   <mat-grid-list cols="4">
+    <mat-grid-tile *ngFor="let produto of produtos">
       <mat-card class="example-card">
-        <img mat-card-image src="./assets/img/Mouse Viper.png" alt="Mouse Gamer">
+        <img mat-card-image src="./assets/img/{{ produto.foto }}" alt="produto">
         <mat-card-header>
-          <mat-card-title>Mouse Razer Viper PRO</mat-card-title>
+          <mat-card-title>{{ produto.produto }}</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-          <p>Melhor mouse para FPS</p>
+          <p>
+            {{ produto.descricao }}
+          </p>
+          <p>
         </mat-card-content>
         <mat-card-actions>
-          <p>R$199.90</p>
-          <a>R$259,90</a>
-        <button mat-button>Comprar</button>
+          <p>{{ produto.preco | currency : 'BRL' }}</p>
+          <button mat-raised-button color="primary">Comprar</button>
         </mat-card-actions>
       </mat-card>
     </mat-grid-tile>
-    <mat-grid-tile>
-      <mat-card class="example-card">
-        <img mat-card-image src="./assets/img/Teclado02.png" alt="Teclado Gamer">
-        <mat-card-header>
-          <mat-card-title>Teclado Mecânico XPG</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Switch Black</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$399.90</p>
-          <a>R$499,99</a>
-        <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <mat-card class="example-card">
-        <img mat-card-image src="./assets/img/GabinetePreto.png" alt="Gabinete Gamer">
-        <mat-card-header>
-          <mat-card-title>Gabinete Preto - Redragon</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Mais espaço, melhor ventilação</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$199,90</p>
-          <a>R$249,99</a>
-        <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <mat-card class="example-card">
-        <img mat-card-image src="./assets/img/VGA.png" alt="VGA RTX">
-        <mat-card-header>
-          <mat-card-title>GeForce RTX 3060 MSI</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Mais poder para sua máquina</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$1.999,99</p>
-          <a>R$2,399,99</a>
-        <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-    </mat-grid-tile>
-
   </mat-grid-list>
-
-
-
 </main>

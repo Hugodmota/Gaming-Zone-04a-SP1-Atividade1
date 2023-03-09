@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Cadeira Gamer",
+      "descricao": "Cadeira",
+      "foto": "Cadeira.png",
+      "preco": 699
+    },
+    {
+      "id": 2,
+      "produto": "Fonte 400w",
+      "descricao": "Fonte ",
+      "foto": "Fonte.png",
+      "preco": 159
+    },
+    {
+      "id": 3,
+      "produto": "Kit Pc Gamer",
+      "descricao": "Kit PC",
+      "foto": "Kit01.png",
+      "preco": 2599
+    },
+    {
+      "id": 4,
+      "produto": "Gabinete Branco",
+      "descricao": "Gabinete ",
+      "foto": "GabineteBranco.png",
+      "preco": 199
+    },
+    {
+      "id": 5,
+      "produto": "Mouse Viper Pro",
+      "descricao": "Mouse Gamer",
+      "foto": "MouseViper.png",
+      "preco": 359
+    },
+    {
+      "id": 6,
+      "produto": "Minitor Gamer 29",
+      "descricao": "Monitor Gamer",
+      "foto": "Monitor.png",
+      "preco": 1699
+    },
+    {
+      "id": 7,
+      "produto": "Processador Ryzen 5",
+      "descricao": "Processador",
+      "foto": "Processador.png",
+      "preco": 699
+    },
+    {
+      "id": 8,
+      "produto": "SSD 480gb",
+      "descricao": "SSD",
+      "foto": "SSD.png",
+      "preco": 159
+    },
+    {
+      "id": 9,
+      "produto": "Headset Havit",
+      "descricao": "Headset",
+      "foto": "Headset.png",
+      "preco": 99
+    },
+    {
+      "id": 10,
+      "produto": "Dualshock 4 - PS4",
+      "descricao": "Dualshock 4",
+      "foto": "Dualshock.png",
+      "preco": 329
+    }
+  ]
+}
